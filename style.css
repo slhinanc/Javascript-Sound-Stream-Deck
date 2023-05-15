@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+}
+
+button{
+    color: #fff;
+    border: none;
+    background-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    transform: scale(0.98);
+}
